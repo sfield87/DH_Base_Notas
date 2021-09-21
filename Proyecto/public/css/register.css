@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;    
+    box-sizing: border-box;
+}
+
+.nombre input,
+.username input,
+.domicilio input,
+.email input{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.nacimiento input{
+    width: auto;
+    display: block;
+    padding: 0 5px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.categorias{
+    /* display: flex; */
+    width: auto;
+    /* flex-direction: column; */
+    padding: 0 5px;
+    /* height: 40px; */
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+} 
+
+.categorias input{
+    display: block;
+}
+
+.perfil{
+    display: block;
+}
